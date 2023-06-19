@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 430px;
+    height: 430px;
+    background-color: deeppink;
+    display: flex;
+    gap: 10px;
+    flex-flow: column-reverse wrap-reverse ;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color:white;
+    line-height: 100px;
+    text-align: center;
+}
